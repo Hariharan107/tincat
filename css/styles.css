@@ -1,0 +1,413 @@
+body {
+    position: relative;
+    /* padding-top: 40px; */
+  }
+
+ body::before {
+    content: "XS";
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+  } 
+  #title
+  {
+    background-color: #ff4c68;
+    height: 700px;
+    
+  }
+  #features
+  {
+    background-color: #fff;
+    padding: 11% 15% ;
+    position: relative;
+    z-index: 1;
+  }
+    #testimonials
+    {
+      padding-top: 3%;
+     text-align: center;
+      background-color: #ec586e;
+      line-height: 1.5rem;
+      font-size: 3rem;
+    }
+    #press
+    {
+      background-color:  #ec586e;
+      text-align: center;
+      padding-bottom: 3rem;
+    
+    }
+    #pricing
+    {
+      padding: 100px;
+    }
+   #cta
+   {
+    background: #ff4c68;
+    text-align: center;
+    padding: 12% 15%;
+   }
+   #footer
+   {
+    padding: 4% 15%;
+    text-align: center;
+   }
+  .title-image
+  {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 20%;
+    right: 400px;
+  }
+ 
+ .ctt
+ {
+  font-family: 'Montserrat', serif;
+  font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 60px;
+    /* font-weight:bolder; */
+ }
+ .sm
+ {
+  color: #000;
+  padding: 0 1.5% 1.5%;
+
+ }
+ .apple
+ {
+  
+  padding-left: 20px;
+ }
+ .apple a{
+  /* font-size: 30px; */
+ }
+  .carousel-item
+  {
+    padding: 3% 15% 3% 15% ;
+  }
+  .press-img
+  {
+    width: 15%;
+    margin: 20px; 
+    padding-right: 20px;
+    
+  }
+  .testimonial-image
+  {
+    border-radius: 100%;
+    margin: 20px;
+    /* padding: 30px; */
+  }
+
+
+
+  /* HEADING SECTION */
+  h1
+{
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #fff;
+    line-height: 1.5;
+    word-spacing: 3px;
+    font-size: 50px;
+    font-weight:bolder;
+    padding-bottom: 1rem;
+
+}
+  h2
+  {
+    
+    font-family: 'Ubuntu', cursive;
+    margin-left: 90px;
+    color: #fff;
+    line-height: 1.5;
+    word-spacing: 3px;
+    font-size: 44px;
+    font-weight:bolder;
+    /* padding-bottom: 1rem; */
+  }
+  
+h3{
+  
+  font-size: 40px; 
+  /* font-weight:bolder;  */
+  font-family: "Montserrat-Bold",sans-serif;
+  font-weight: bolder;
+  font-weight: 700;
+}
+p
+{
+  color: #8f8f8f;
+  font-size: 21px;
+}
+
+ .product-name
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:550;
+  color: #0AF;
+  
+  margin-left: 0;
+}
+.card-header
+{
+  background-color: #e7e6e6;
+}
+.pricing-head
+{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  text-align: center;
+  /* padding-top: 3%; */
+}
+.pricing-p
+{
+  text-align: center;
+  padding-left: 60px;
+}
+.pricing-column
+{
+  padding: 0 2%;
+}
+  em
+  {
+    color: #fff;
+    font-family: 'Ubuntu', cursive;
+    font-weight: bold;
+    font-size: 30px;
+  }
+.font
+{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Silkscreen', cursive;
+
+    letter-spacing: 10px;
+
+}
+
+.container-fluid
+{
+    padding: 3% 15%;
+}
+.gg
+{
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    font-weight: 550;
+}
+
+
+
+
+.nav-item
+{
+    padding-left: 5%;
+}
+.font:hover{
+    color: #000;
+}
+
+.fas1
+{
+  
+  color: red;
+}
+.fas2
+{
+  color:green;
+}
+.icon
+{
+  padding-bottom: 5%;
+}
+.feature-box
+{
+  text-align: center;
+  padding: ;
+  /* padding: 5%; */
+}
+.spacing
+{
+  padding-left: 5%
+}
+.spacingg
+{
+  padding-right:8%;
+  letter-spacing: 2px;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:1330px)
+{
+  .hb{
+    font-size: 47px;
+  }
+  .title-image{
+    position: absolute;
+    right: 270px;
+    width: 21%;
+    transform: rotate(0);
+    top: 120px;
+  }
+}
+
+@media only screen and (max-width:1252px) {
+  .title-image
+  {
+    position: absolute;
+    right: 240px;
+    transform: rotate(0);
+  }
+  .hb
+  {
+    padding-top: 30px;
+    font-size: 49px;
+  }
+}
+@media only screen and (max-width:1107px) and (min-width:1030px)
+{
+  #title
+  {
+    text-align: center;
+    height: 650px;
+  }
+  
+  .title-image
+  {
+    position: relative;
+    width: 65%;
+    right: 10px;   
+    top: 40px;
+    transform: rotate(0);
+  }
+  .hb
+  {
+    font-size: 45px;
+  }
+}
+
+
+@media screen and (max-width: 1031px) 
+{
+  .title-image
+  {
+    width: 24%;
+  }
+  .hb{
+    font-size: 42px;
+  }
+ 
+}
+@media screen and (max-width:991px) {
+  .title-image
+  {
+    width: 24%;
+    top: 250px;
+    left: 550px;
+  }
+  .hb{
+    font-size: 38px;
+  }
+}
+@media screen and (max-width:890px) 
+{
+  #title
+  {
+    text-align:center;
+    height: 800px;
+  }
+  .hb{
+    font-size: 40px;
+    text-align: center;
+  }
+  .title-image{
+    width: 25%;
+    left: 320px;
+    top: 400px;
+  }
+
+}
+
+/* HARDEST MEDIA QUERY EVER WRITTEN */
+@media screen and (max-width:810px) 
+{
+  #title
+  {
+    height: 800px;
+  }
+  .hb{
+    font-size: 35px;
+  }
+  .title-image
+  {
+    top: 390px;
+    left:270px;
+    width: 28%;
+  }
+}
+@media screen and (max-width:720px)
+{
+  .title-image
+  {
+    top: 430px;
+    left: 220px;
+  }
+}
+@media screen and (max-width:640px)
+{
+  .title-image
+  {
+    top: 410px;
+    left:200px;
+    width: 31%;
+  }
+}
+@media screen and (max-width:570px)
+{
+  .title-image
+  {
+
+    top: 460px;
+    left:160px;
+    width: 31%;
+  }
+}
+  @media (min-width: 576px) {
+    body::before {
+      content: "SM";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  }
